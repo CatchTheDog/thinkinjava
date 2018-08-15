@@ -2,7 +2,7 @@ package com.thinkinjava.example.annotation.apt;
 
 import com.sun.mirror.apt.*;
 import com.sun.mirror.declaration.*;
-import com.sun.mirror.type.*;
+
 import com.sun.mirror.util.*;
 
 import java.util.Arrays;
@@ -10,6 +10,7 @@ import java.util.Collection;
 import java.util.Set;
 
 import static java.util.Collections.*;
+import static com.sun.mirror.util.DeclarationVisitors.*;
 
 /**
  * this is an example from java guide of apt
