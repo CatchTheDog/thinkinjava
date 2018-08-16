@@ -20,6 +20,8 @@ package com.thinkinjava.example.annotation;
  *
  * 注解不支持继承
  *
+ * APT 工具在java8中已经被移除，可以使用其替代工具：Pluggable Annotation Processing API
+ *
  *
  *
  */

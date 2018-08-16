@@ -19,10 +19,10 @@ import static com.sun.mirror.util.DeclarationVisitors.*;
  * doclet in the DocLet Overview
  */
 public class ListClassApf implements AnnotationProcessorFactory {
-
+    // Process any set of annotations
     private static final Collection<String> supportedAnnotations
             = unmodifiableCollection(Arrays.asList("*"));
-
+    // no supported options
     private static final Collection<String> supportedOptions = emptySet();
 
 
