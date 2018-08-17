@@ -98,5 +98,4 @@ public class RegexpUntil {
         String mail = "dsfadfdfdsafads.com";
         System.out.println(valiMail(mail));
     }
-
 }
