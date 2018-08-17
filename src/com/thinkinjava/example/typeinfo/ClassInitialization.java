@@ -1,6 +1,6 @@
 package com.thinkinjava.example.typeinfo;
 
-import java.util.Random;
+import java.util.*;
 
 /**
  * 类型信息
@@ -10,6 +10,6 @@ public class ClassInitialization {
     public static void main(String [] args){
         Class initable = Initable.class;
         System.out.println("After creating Initable ref");
-
     }
+
 }
